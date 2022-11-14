@@ -79,7 +79,7 @@ if(isset($_POST['chat'])) {
 
 <script>
 setInterval(()=>{
-fetch("http://test/<?=$chatjs?>.json")  
+fetch("http://yousite.loc/<?=$chatjs?>.json")  
     .then((response) => {  
         return response.json();  
     })  
